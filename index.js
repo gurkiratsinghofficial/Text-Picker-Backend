@@ -5,7 +5,7 @@ import Tesseract from "tesseract.js";
 import cors from "cors";
 
 const app = express();
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://text-picker-ui.onrender.com" }));
 // ✅ Multer Configuration (File Limits & Validation)
 const upload = multer({
   limits: { fileSize: 5 * 1024 * 1024 }, // 5MB file size limit
